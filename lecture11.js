@@ -1,27 +1,6 @@
-// function return_test(){
-//     return;
-//     console.log("실행되지 않는 코드")
-// }
-
-// function print(msg){
-//     console.log("print function in");
-//     console.log(msg);
-//     console.log("print function out");
-// }
-
-// function sum(arg1, arg2){
-//     var result = arg1 + arg2;
-//     return result;
-// }
-
-// function sum(a, b){
-//     return a+b;
-// }
-
-
 function return_test(){
     return;
-    console.log("실행되지 않는 코드");
+    console.log("실행되지 않는 코드")
 }
 
 function print(msg){
@@ -33,4 +12,8 @@ function print(msg){
 function sum(arg1, arg2){
     var result = arg1 + arg2;
     return result;
+}
+
+function sum(a, b){
+    return a+b;
 }
